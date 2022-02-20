@@ -1,0 +1,10 @@
+title: Snake
+description: Simple Snake-Game for Picosystem
+author: M. Gerloff
+splash:
+  file: assets/no-image.png
+icon:
+  file: assets/no-icon.png
+version: v1.0.0
+category: game
+url: https://github.com/lummi01/Picosystem-Snake
