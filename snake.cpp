@@ -102,7 +102,7 @@ void render(uint32_t time)
              screen.text("PRESS A", minimal_font, Point(SCREEN_WIDTH / 2 * BLOCK, 92), true, TextAlign::center_center);
         }
     }
-    screen.text(std::to_string(pL + 5) + "/" + std::to_string(highscore), minimal_font, Point(SCREEN_WIDTH * BLOCK - BLOCK, BLOCK - 1), true, TextAlign::top_right);
+    screen.text(std::to_string(pL - 5) + "/" + std::to_string(highscore), minimal_font, Point(SCREEN_WIDTH * BLOCK - BLOCK, BLOCK - 1), true, TextAlign::top_right);
     screen.pen = Pen(0, 0, 0);
 }
 
